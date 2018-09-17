@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "185121620378",
+    "firebase_url": "https://haijasa-7dbb6.firebaseio.com",
+    "project_id": "haijasa-7dbb6",
+    "storage_bucket": "haijasa-7dbb6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:185121620378:android:6d2b91c1e0bb6cfa",
+        "android_client_info": {
+          "package_name": "com.example.azamm.rizkychat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "185121620378-ebfp5jjpnd6q6rv0g6824au4c8camto8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.azamm.rizkychat",
+            "certificate_hash": "83988493cdf13f1bfc3d4364c60f7637ccc3d06b"
+          }
+        },
+        {
+          "client_id": "185121620378-91hpch1luq7duvb5g744fiac5eoo078a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlAkc9y_s9HHim4xLyWp0M7Mn6pWCt0XI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "185121620378-91hpch1luq7duvb5g744fiac5eoo078a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
