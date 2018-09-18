@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         login = findViewById(R.id.btnRegisterLogin);
         mAuth = FirebaseAuth.getInstance();
         mDatabase = FirebaseDatabase.getInstance();
-        mRef = mDatabase.getReference("kon");
+        mRef = mDatabase.getReference("users");
 
         submit.setOnClickListener(new View.OnClickListener() {
             @Override

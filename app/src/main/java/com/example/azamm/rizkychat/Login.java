@@ -1,5 +1,6 @@
 package com.example.azamm.rizkychat;
 
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -47,6 +48,8 @@ public class Login extends AppCompatActivity {
                             // Sign in success, update UI with the signed-in user's information
                             Log.d(TAG, "signInWithEmail:success");
                             FirebaseUser user = mAuth.getCurrentUser();
+                            Intent intent = new Intent(Login.this, ProfileActivity.class);
+                            startActivity(intent);
 
                         } else {
                             // If sign in fails, display a message to the user.
